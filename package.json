@@ -15,6 +15,7 @@
         "grunt-contrib-watch": "~0.5.1"
     },
     "scripts": {
-        "install": "./node_modules/.bin/bower install"
+        "install": "./node_modules/.bin/bower install",
+        "test": "grunt tests --verbose"
     }
 }
