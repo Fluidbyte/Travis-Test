@@ -2,9 +2,9 @@ module.exports = function ( grunt ) {
 
     grunt.initConfig({
 		
-		/**
-		 * Get package.json data
-		 */
+        /**
+         * Get package.json data
+         */
         pkg: grunt.file.readJSON("package.json"),
         
         /**
